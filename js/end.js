@@ -25,5 +25,5 @@ saveHighScore = (e) => {
     highScores.splice(5);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign("KuisKemerdekaanRI/index.html");
+    window.location.assign("index.html");
 }
