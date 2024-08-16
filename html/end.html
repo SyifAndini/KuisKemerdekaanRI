@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis selesai!</title>
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+           <h1 id="finalScore">0</h1>
+           <form>
+            <input type="text" name="username" id="username" placeholder="Username">
+            <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save Score</button>
+           </form>
+           <a href="/html/game2.html" class="btn">Coba lagi</a>
+           <a href="/html/index.html" class="btn">Ke Beranda</a>
+        </div>
+        <script src="/js/end.js"></script>
+    </div>
+</body>
+</html>
