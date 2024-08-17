@@ -9,8 +9,12 @@
 <body>
     <div class="container">
         <div id="end" class="flex-center flex-column">
-           <h1 id="finalScore">0</h1>
-           <form>
+           <h1>Kuis Selesai!</h1>
+           <img src="image/finish.png" alt="Ilustrasi Selesai" width="50%">
+           <h3>Skor Anda</h3>
+            <h1 id="finalScore">0</h1>
+            <h2 id="yourName"></h2>
+           <form id="userForm">
             <input type="text" name="username" id="username" placeholder="Username">
             <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save Score</button>
            </form>
@@ -20,4 +24,25 @@
         <script src="js/end.js"></script>
     </div>
 </body>
+<footer class="flex-center flex-column">
+    <div class="container-sosmed">
+        <div class="logo insta">
+            <a href="https://www.instagram.com/studywithsyifa/" target="_blank">
+                <img src="image/logo-instagram.png" alt="Logo Instagram">
+            </a>
+        </div>
+        <div class="logo github">
+            <a href="https://github.com/SyifAndini" target="_blank">
+                <img src="image/logo-github.png" alt="Logo Github">
+            </a>
+        </div>
+        <div class="logo linkedin">
+            <a href="https://www.linkedin.com/in/syifaputriandini/" target="_blank">
+                <img src="image/logo-linkedin.png" alt="Logo LinkedIn">
+            </a>
+        </div>   
+    </div>
+    
+    <p>&#169; Copyright to Syifa 2024<br>Ilustrasi oleh <a href="https://storyset.com/" target="_blank">Storyset</a></p>
+</footer>
 </html>

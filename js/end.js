@@ -2,8 +2,10 @@ const username = document.getElementById("username");
 const saveScoreBtn = document.getElementById('saveScoreBtn')
 const finalScore = document.getElementById('finalScore')
 const mostRecentScore = localStorage.getItem('mostRecentScore');
+const myForm = document.getElementById("userForm");
+const yourName = document.getElementById("yourName");
 
-const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+const highScores = JSON.parse(localStorage.getItem("highScores") || "[]");
 
 const MAX_HIGH_SCORES = 5;
 
@@ -22,8 +24,10 @@ saveHighScore = (e) => {
 
     highScores.push(score);
     highScores.sort((a,b) => b.score - a.score);
-    highScores.splice(5);
+    highScores.splice(MAX_HIGH_SCORES);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign("index.html");
+    yourName.innerText = username.value;
+    myForm.remove();
+
 }

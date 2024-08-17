@@ -1,0 +1,242 @@
+[
+    {
+        "question": "Siapa tokoh yang mengetik naskah proklamasi?",
+        "choice1": "Ir. Soekarno",
+        "choice2": "Sayuti Melik",
+        "choice3": "Drs. Moh. Hatta",
+        "choice4": "Muhammad Yamin",
+        "answer": 2
+    },
+    {
+        "question": "Apa tujuan kaum muda menculik Soekarno-Hatta ke Rengasdengklok?",
+        "choice1": "Menyegerakan kemerdekaan Indonesia karena Jepang sudah menyerah kepada sekutu",
+        "choice2": "Melindungi Soekarno-Hatta dari serangan Jepang",
+        "choice3": "Melindungi Soekarno-Hatta dari pengaruh Jepang untuk menunda kemerdekaan",
+        "choice4": "Kaum muda tidak setuju dengan tindakan Soekarno-Hatta untuk menunggu janji kemerdekaan dari Jepang",
+        "answer": 3
+    },
+    {
+        "question": "Siapa tokoh yang menjahit bendera Merah Putih?",
+        "choice1": "H. Agus Salim",
+        "choice2": "Sutan Syahrir",
+        "choice3": "Dr. Radjiman",
+        "choice4": "Fatmawati",
+        "answer": 4
+    },
+    {
+        "question": "Kapan teks proklamasi dibacakan?",
+        "choice1": "14 Agustus 1945",
+        "choice2": "15 Agustus 1945",
+        "choice3": "16 Agustus 1945",
+        "choice4": "17 Agustus 1945",
+        "answer": 4
+    },
+    {
+        "question": "Kapan BPUPKI dibentuk?",
+        "choice1": "29 April 1945",
+        "choice2": "29 Mei 1945",
+        "choice3": "30 April 1945",
+        "choice4": "1 Juni 1945",
+        "answer": 1
+    },
+    {
+        "question": "Apa bahasa Jepang dari PPKI?",
+        "choice1": "Dokuritsu Junbi Cosakai",
+        "choice2": "Dokuritsu Junbi Inkai",
+        "choice3": "Seinendan",
+        "choice4": "Keibondan",
+        "answer": 2
+    },
+    {
+        "question": "Siapakah tokoh YANG TIDAK TERMASUK tiga pengibar bendera Merah Putih pertama?",
+        "choice1": "Latief Hendraningrat",
+        "choice2": "Suhud Sastro Kusumo",
+        "choice3": "Ahmad Soebarjo",
+        "choice4": "Surastri Karma Trimurti",
+        "answer": 3
+    },
+    {
+        "question": "Siapakah tokoh yang berpendapat bahwa Soekarno-Hatta harus menandatangani naskah proklamasi atas nama seluruh bangsa?",
+        "choice1": "Sukarni",
+        "choice2": "H. Agus Salim",
+        "choice3": "Laksamana Muda Maeda",
+        "choice4": "Moh. Yamin",
+        "answer": 1
+    },
+    {
+        "question": "Dimanakah teks proklamasi dibacakan?",
+        "choice1": "Rengasdengklok",
+        "choice2": "Jl. Imam Bondjol No. 1",
+        "choice3": "Jl. Pegangsaan Timur No. 56, Jakarta",
+        "choice4": "Lapangan Ikada",
+        "answer": 3
+    },
+    {
+        "question": "Apa bahasa Jepang dari BPUPKI?",
+        "choice1": "Dokuritsu Junbi Cosakai",
+        "choice2": "Dokuritsu Junbi Inkai",
+        "choice3": "Seinendan",
+        "choice4": "Keibondan",
+        "answer": 1
+    },
+    {
+        "question": "Siapakah ketua BPUPKI?",
+        "choice1": "Ir. Soekarno",
+        "choice2": "Ichibangase Yosio",
+        "choice3": "R.P Soeroso",
+        "choice4": "K. R. T Radjiman Wedyodiningrat",
+        "answer": 4
+    },
+    {
+        "question": "Kapan sidang pertama BPUPKI dilaksanakan dan membahas tentang apa?",
+        "choice1": "29 Mei - 1 Juni 1945, Tentang Dasar Negara",
+        "choice2": "10 - 17 Juli 1945, Tentang Dasar Negara",
+        "choice3": "29 Mei - 1 Juni 1945, Tentang Rancangan UUD",
+        "choice4": "10 - 17 Juli 1945, Tentang Rancangan UUD",
+        "answer": 1
+    },
+    {
+        "question": "Siapakah tokoh yang mengusulkan gagasan dasar negara pada 30 Mei 1945?",
+        "choice1": "Ir. Soekarno",
+        "choice2": "Mr. Soepomo",
+        "choice3": "Moh. Yamin",
+        "choice4": "Sutan Syahrir",
+        "answer": 2
+    },
+    {
+        "question": "Berikut ini adalah usulan dasar negara yang dikemukakan oleh Ir. Soekarno, kecuali...",
+        "choice1": "Kebangsaan Indonesia",
+        "choice2": "Internasionalisme atau peri kemanusiaan",
+        "choice3": "Rasa kemanusiaan yang adil dan beradab",
+        "choice4": "Mufakat atau demokrasi",
+        "answer": 3
+    },
+    {
+        "question": "Apa senjata pasukan perjuangan Indonesia untuk merebut kemerdekaan?",
+        "choice1": "Bambu Runcing",
+        "choice2": "Keris Sakti",
+        "choice3": "Senapan Angin",
+        "choice4": "Celurit",
+        "answer": 1
+    },
+    {
+        "question": "Apa nama panitia yang bertugas menyelidiki usulan rumusan dasar negara Indonesia?",
+        "choice1": "Panitia Penghalus Bahasa",
+        "choice2": "Panitia Sembilan",
+        "choice3": "Panitia Sebelas",
+        "choice4": "Panitia Lima",
+        "answer": 2
+    },
+    {
+        "question": "Siapakah tokoh YANG TIDAK TERMASUK anggota panitia sembilan?",
+        "choice1": "H. Agus Salim",
+        "choice2": "A. A. Maramis",
+        "choice3": "Mr. Soepomo",
+        "choice4": "Abdul Kahar Muzakir",
+        "answer": 3
+    },
+    {
+        "question": "Siapakah tokoh golongan tua yang menjemput Soekarno-Hatta di Rengasdengklok?",
+        "choice1": "Ahmad Soebarjo",
+        "choice2": "H. Agus Salim",
+        "choice3": "K.H Wahid Hasyim",
+        "choice4": "Raden Abikusno Tjokrosoejoso",
+        "answer": 1
+    },
+    {
+        "question": "Dimanakah naskah proklamasi disusun?",
+        "choice1": "Rumah Soekarno",
+        "choice2": "Jl. Imam Bondjol No. 1",
+        "choice3": "Jl. Pegangsaan Timur No. 56, Jakarta",
+        "choice4": "Lapangan Ikada",
+        "answer": 2
+    },
+    {
+        "question": "Siapakah yang menciptakan lagu Indonesia Raya?",
+        "choice1": "Ibu Sud",
+        "choice2": "Wage Rudolf Supratman",
+        "choice3": "Zubir Said",
+        "choice4": "Sutan Syahrir",
+        "answer": 2
+    },
+    {
+        "question": "Apa nama perjanjian yang mengakhiri Agresi Militer Belanda I pada tahun 1947?",
+        "choice1": "Perjanjian Roem-Royen",
+        "choice2": "Perjanjian Linggarjati",
+        "choice3": "Konferensi Meja Bundar",
+        "choice4": "Perjanjian Renville",
+        "answer": 2
+    },
+    {
+        "question": "Apa isi gerakan 3A yang dibawa Jepang?",
+        "choice1": "Jepang Pelopor Asia, Jepang Pemimpin Asia, Jepang Pelindung Asia",
+        "choice2": "Jepang Pengaruh Asia, Jepang Pemimpin Asia, Jepang Cahaya Asia",
+        "choice3": "Jepang Pemimpin Asia, Jepang Pelindung Asia, Jepang Cahaya Asia",
+        "choice4": "Jepang Cahaya Asia, Jepang Pemimpin Asia, Jepang Penguasa Asia",
+        "answer": 3
+    },
+    {
+        "question": "Siapakah perdana menteri pertama Indonesia?",
+        "choice1": "Moh. Hatta",
+        "choice2": "Sutan Syahrir",
+        "choice3": "Ir Soekarno",
+        "choice4": "Dr. Radjiman",
+        "answer": 2
+    },
+    {
+        "question": "Apa negara yang pertama kali mengakui kemerdekaan Indonesia?",
+        "choice1": "Palestina",
+        "choice2": "Amerika",
+        "choice3": "Belanda",
+        "choice4": "Mesir",
+        "answer": 4
+    },
+    {
+        "question": "Siapakah ketua delegasi Indonesia dalam Konferensi Meja Bundar?",
+        "choice1": "Moh. Hatta",
+        "choice2": "Ir. Soekarno",
+        "choice3": "Moh. Roem",
+        "choice4": "H. Agus Salim",
+        "answer": 1
+    },
+    {
+        "question": "Berapa jumlah provinsi Indonesia saat merdeka?",
+        "choice1": "10",
+        "choice2": "8",
+        "choice3": "7",
+        "choice4": "6",
+        "answer": 2
+    },
+    {
+        "question": "Berapa jumlah provinsi Indonesia saat ini?",
+        "choice1": "33",
+        "choice2": "36",
+        "choice3": "38",
+        "choice4": "34",
+        "answer": 3
+    },
+    {
+        "question": "Siapa pemimpin bangsa Belanda saat pertama kali datang ke Indonesia?",
+        "choice1": "Cornelis de Houtman",
+        "choice2": "Van den Bosch",
+        "choice3": "Daendels",
+        "choice4": "Herman van Roijen",
+        "answer": 1
+    },
+    {
+        "question": "Kapan PPKI dibentuk?",
+        "choice1": "4 Agustus 1945",
+        "choice2": "5 Agustus 1945",
+        "choice3": "6 Agustus 1945",
+        "choice4": "7 Agustus 1945",
+        "answer": 4
+    },
+    {
+        "question": "Apa isi pada bagian awal teks proklamasi?",
+        "choice1": "'Kami bangsa Indonesia dengan ini menyatakan kemerdekaan Indonesia dari para penjajah ...'",
+        "choice2": "'Kami bangsa Indonesia menyatakan kemerdekaan Indonesia ...'",
+        "choice3": "'Kami bangsa Indonesia dengan ini menyatakan kemerdekaan Indonesia ...'",
+        "choice4": "'Kami bangsa Indonesia mendeklarasikan kemerdekaan Indonesia ...'",
+        "answer": 3
+    }
+]

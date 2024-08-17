@@ -126,3 +126,23 @@ input{
 input::placeholder{
     color: #aaa;
 }
+
+/* Social Media and Footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.container-sosmed {
+    padding: 2rem;
+    width: 20rem;
+    display: inline-flex;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo:hover {
+    opacity: 0.7;
+  }

@@ -10,36 +10,18 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = {};
 
-let questions = [
-    {
-        question: "Siapa tokoh yang mengetik naskah proklamasi?",
-        choice1: "Ir. Soekarno",
-        choice2: "Sayuti Melik",
-        choice3: "Drs. Moh. Hatta",
-        choice4: "Muhammad Yamin",
-        answer: 2
-    },
-    {
-        question: "Apa tujuan kaum muda menculik Soekarno-Hatta ke Rengasdengklok?",
-        choice1: "Menyegerakan kemerdekaan Indonesia karena Jepang sudah menyerah kepada sekutu",
-        choice2: "Melindungi Soekarno-Hatta dari serangan Jepang",
-        choice3: "Melindungi Soekarno-Hatta dari pengaruh Jepang untuk menunda kemerdekaan",
-        choice4: "Kaum muda tidak setuju dengan tindakan Soekarno-Hatta untuk menunggu janji kemerdekaan dari Jepang",
-        answer: 3
-    },
-    {
-        question: "Siapa tokoh yang menjahit bendera Merah Putih?",
-        choice1: "Ir. Soekarno",
-        choice2: "Sayuti Melik",
-        choice3: "Drs. Moh. Hatta",
-        choice4: "Fatmawati",
-        answer: 4
-    }
-];
+let questions = [];
+
+fetch("questions.json").then(res => {
+    return res.json();
+}).then(loadedQuestions => {
+    questions = loadedQuestions;
+    startGame();
+});
 
 // CONSTANTS
-const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 20;
+const CORRECT_BONUS = 100/MAX_QUESTIONS;
 
 startGame = () => {
     questionCounter = 0;
@@ -49,7 +31,7 @@ startGame = () => {
 };
 
 getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
+    if(questionCounter >= MAX_QUESTIONS){
         localStorage.setItem('mostRecentScore', score);
         // go to the end page
         return window.location.assign("end.html");
@@ -79,17 +61,24 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
+        const rightAnswer = choices[currentQuestion.answer - 1]; // take from an array
 
+        // Checking the user's answer
         let classtoApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
         if(classtoApply == 'correct'){
+            // if correct, they got bonus score
             incrementScore(CORRECT_BONUS);
+        } else {
+            // If incorrect, we'll show the right answer, so the user can learn from their mistake
+            rightAnswer.parentElement.classList.add("correct");
         }
 
         selectedChoice.parentElement.classList.add(classtoApply);
 
         setTimeout( () => {
             selectedChoice.parentElement.classList.remove(classtoApply);
+            rightAnswer.parentElement.classList.remove("correct");
             getNewQuestion();
         }, 1000);
 
@@ -101,5 +90,3 @@ incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 }
-
-startGame();
